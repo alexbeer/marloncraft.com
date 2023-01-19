@@ -1,0 +1,416 @@
+<!--
+
+MADE BY THE GOAT [ALEX BEER]
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113827947-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113827947-1');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+  <title>Marlon Craft | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|EB+Garamond" rel="stylesheet">
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+  body{
+    margin:0;
+    background-color:black;
+    background-image:url(mfilm.jpeg);
+    background-size:cover;
+    font-family:cinzel;
+  }
+  .main-body{
+    height:100vh;
+    width:100%;
+    background-image:url(m3black2.jpg);
+    background-size:cover;
+  }
+  .pre-order{
+    position:fixed;
+    width:100%;
+    height:60px;
+    line-height:60px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    letter-spacing:2px;
+    bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+  }
+  .logo{
+    text-align:center;
+    padding-top:50px;
+    font-size:60px;
+    font-weight:bolder;
+    color:white;
+    text-shadow:1px 1px 1px black;
+  }
+
+  .nav-bar{
+    width:320px;
+    height:220px;
+    margin:auto;
+    margin-top:100px;
+  }
+  .nav{
+    height:100px;
+    width:150px;
+    float:left;
+    line-height:100px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    background-color:rgba(255,255,255,.9);
+    color:black;
+    font-weight:800;
+  }
+  .nav a{
+    color:black;
+    text-decoration:none;
+  }
+  .nav:hover{
+    background-color:rgba(255,255,255,.9);
+  }
+  .tour-body{
+    width:100%;
+    height:;
+    background-color:rgba(50,50,50,.9);
+  }
+  #top-tour{
+    color:white;
+    text-align:center;
+    padding-top:50px;
+    font-size:50px;
+  }
+  .no-upcoming{
+    text-align:center;
+    color:rgba(255,255,255,.8);
+    padding-top:50px;
+    font-size:20px;
+  }
+
+  #upcoming-title{
+    padding:10px;
+    width:300px;
+    margin:auto;
+    color:gray;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:800;
+    margin-top:40px;
+    text-align:center;
+
+  }
+  #tunnel-tour{
+    padding:10px;
+    width:90%;
+    margin:auto;
+    color:gray;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:800;
+    margin-top:40px;
+  }
+  .show{
+    width:100%;
+    border-bottom:1px solid white;
+    margin:auto;
+    color:White;
+    margin-top:40px;
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing: 1px;
+    text-align:center;
+  }
+  .show-title{
+  line-height: 50px;
+  text-align: center;
+  }
+  .show-date{
+  text-align: center;
+  height:5px;
+  line-height: 0px;
+
+  }
+  .show-location{
+  float:;
+  color:gray;
+  }
+  .show-tickets{
+  text-align:center;
+  line-height: 50px;
+  color:rgba(200,170,50,.8);
+  }
+  .show a{
+    color:rgba(200,170,50,.8);
+    text-decoration: none;
+  }
+  .show a:hover{
+    text-decoration: underline;
+  }
+  .show-banner{
+    width:90%;
+    padding:30px;
+    background-color:rgba(153, 0, 0,.9);
+    color:white;
+    text-align:center;
+    letter-spacing:2px;
+    margin:auto;
+    position:fixed;
+}
+
+
+  @media only screen and (min-width:800px){
+
+ .main-body{
+ 
+    background-image:url(m3black.jpg);
+ }
+.show{
+  width:800px;
+  border-bottom:1px solid white;
+  height:50px;
+}
+.show-title{
+float:left;
+line-height: 50px;
+margin-left:50px;
+}
+.show-date{
+float:left;
+border-right:1px solid white;
+border-left:1px solid white;
+border-top:1px solid white;
+height:50px;
+width:100px;
+line-height: 50px;
+
+}
+.show-location{
+float:left;
+line-height: 50px;
+margin-left:50px;
+color:gray;
+}
+.show-tickets{
+float:right;
+line-height: 50px;
+color:rgba(200,170,50,.8);
+
+}
+.show-banner{
+    width:100%;
+    padding:30px;
+    background-color:rgba(153, 0, 0,.9);
+    color:white;
+    text-align:center;
+    letter-spacing:2px;
+    margin:auto;
+
+}
+
+}
+
+
+</style>
+
+</head>
+<!--<a href="#top-tour"><div class="show-banner">get tickets to the tour</div></a>-->
+  <body>
+      
+    <div class="main-body">
+    
+      <a href="http://thecenter.marloncraft.com"><div class="pre-order">join the center</div></a>
+      
+      <div class="logo">Marlon Craft</div>
+      <div class="nav-bar">
+        <a href="http://centerdrops.marloncraft.com"><div class="nav">Merch</div></a>
+        <a href="https://www.youtube.com/channel/UCOdlphdPDxYyFw6to-vbuEA"><div class="nav">videos</div></a>
+        <a href="http://lnk.to/MarlonCraftMusic"><div class="nav">music</div></a>
+        <a href="index.html#top-tour"><div class="nav">shows</div></a>
+      </div>
+    </div>
+
+    <div class="tour-body">
+      <div id="top-tour">Shows</div>
+
+    <!--  <div class="no-upcoming">There are no upcoming dates. Check back soon. </div> -->
+
+
+
+      <div id="upcoming-title">Upcoming shows</div>
+      
+      <!--
+      
+      <div class="show">
+        <div class="show-date">6.7.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Chicago</div>
+        <div class="show-tickets"><a href="	https://lh-st.com/shows/06-07-2022-marlon-craft">get tickets</a></div>
+      </div>
+      
+       <div class="show">
+        <div class="show-date">6.8.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Cleveland</div>
+        <div class="show-tickets"><a href="https://www.ticketmaster.com/event/05005C7EDC1A3923">get tickets</a></div>
+      </div>
+
+       <div class="show">
+        <div class="show-date">6.9.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Columbus</div>
+        <div class="show-tickets"><a href="https://www.axs.com/events/430182/marlon-craft-tickets">get tickets</a></div>
+      </div>
+      <div class="show">
+        <div class="show-date">6.12.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Toronto</div>
+        <div class="show-tickets"><a href="https://www.ticketweb.ca/event/marlon-craft-drake-underground-tickets/11976165?pl=embrace">get tickets</a></div>
+      </div>
+
+    <div class="show">
+        <div class="show-date">6.15.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Washington DC</div>
+        <div class="show-tickets"><a href="https://www.unionstage.com/shows/marlon-craft/">get tickets</a></div>
+      </div>
+
+    <div class="show">
+        <div class="show-date">6.23.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">NYC</div>
+        <div class="show-tickets"><a href="https://www.axs.com/events/430185/marlon-craft-tickets?skin=mhow">get tickets</a></div>
+      </div>
+
+  <div class="show">
+        <div class="show-date">6.26.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Boston</div>
+        <div class="show-tickets"><a href="https://www.ticketweb.com/event/marlon-craft-sonia-tickets/11985965?pl=mideastclub">get tickets</a></div>
+      </div>
+
+     
+
+          <div class="show">
+        <div class="show-date">9.14.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Warsaw</div>
+        <div class="show-tickets"><a href="https://goingapp.pl/wydarzenie/marlon-craft-warszawa-hybrydy/wrzesien-2022">get tickets</a></div>
+      </div>
+
+      <div class="show">
+        <div class="show-date">9.15.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Berlin</div>
+        <div class="show-tickets"><a href="https://www.eventim.de/eventseries/marlon-craft-3135859/">get tickets</a></div>
+      </div>
+
+       <div class="show">
+        <div class="show-date">9.17.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Hamburg</div>
+        <div class="show-tickets"><a href="https://www.eventim.de/eventseries/marlon-craft-3135859/">get tickets</a></div>
+      </div>
+
+
+ <div class="show">
+        <div class="show-date">9.18.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Cologne</div>
+        <div class="show-tickets"><a href="https://www.eventim.de/eventseries/marlon-craft-3135859/">get tickets</a></div>
+      </div>
+
+-->
+
+
+
+    <div class="show">
+        <div class="show-date">11.10.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Los Angeles</div>
+        <div class="show-tickets"><a href="https://www.ticketweb.com/event/marlon-craft-the-mint-tickets/12497595?pl=shealy">get tickets</a></div>
+      </div>
+
+     <div class="show">
+        <div class="show-date">11.11.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">San Diego</div>
+        <div class="show-tickets"><a href="https://dice.fm/partner/big-soda-llc-dba-soda-bar/event/gram6?dice_source=web&dice_medium=organic&dice_campaign=Big%20Soda%20LLC%20DBA%20Soda%20Bar&_branch_match_id=1016734144171049563&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1fczsTBNNEk1SDM0SwEADTBnVCEAAAA%3D">get tickets</a></div>
+      </div>
+
+      <div class="show">
+        <div class="show-date">11.15.22</div>
+        <div class="show-title">the while we're here tour</div>
+        <div class="show-location">Denver</div>
+        <div class="show-tickets"><a href="https://www.etix.com/ticket/p/7024246/marlon-craft-wspecial-guests-denver-cervantesother-side">get tickets</a></div>
+      </div>
+
+
+
+
+
+          
+
+
+
+      
+      
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+      </div>
+
+
+
+
+
+    <div class="no-tour-dates"></div>
+  </body>
+</html>
